@@ -254,7 +254,7 @@ class Dashboard extends Component{
     }
 
     renderPopup=()=>(
-        <div className='popupContainer'>
+        <div className='availPopup'>
             <div className='popUp'>
                 <p className='popupPara'>Your <span className='span'>Availability</span> is disabled. Please enable your Availability to get new bookings</p>
                 <button className='popupBtn' onClick={this.onClickChangeAvailability}>Enable Availability</button>            

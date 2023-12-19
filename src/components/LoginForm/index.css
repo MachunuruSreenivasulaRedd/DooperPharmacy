@@ -5,7 +5,7 @@
     max-height: 100vh;
     background-color: #fff;
     padding: 10px;
-    overflow: hidden;
+    overflow:hidden;
 }
 .contLink{
     text-decoration: none;

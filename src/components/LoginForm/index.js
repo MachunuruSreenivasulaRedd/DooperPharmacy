@@ -5,7 +5,6 @@ import {Link, NavLink, Navigate} from 'react-router-dom'
 import OTPInput, { ResendOTP } from "otp-input-react";
 import PhoneNumberValidation from '../PhoneNumberValidation'
 import OTPValidation from '../OTPValidation';
-import Dashboard from '../Dashboard';
 import './index.css'
 
 const LoginForm=()=>{
