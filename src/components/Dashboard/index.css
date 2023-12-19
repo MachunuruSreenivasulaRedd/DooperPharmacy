@@ -103,9 +103,8 @@
 .popUp{
     background-color: #fff;
     border-radius: 8px;
-    max-height: 256px;
-
-    max-width: 400px;
+    max-height: 259px;
+    max-width: 430px;
     padding: 0px 30px 0px 30px;
     display: flex;
     flex-direction: column;
