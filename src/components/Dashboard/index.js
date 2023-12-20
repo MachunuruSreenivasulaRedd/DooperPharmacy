@@ -74,7 +74,7 @@ class Dashboard extends Component{
                             <div className='detailsContainer'>
                                 <a className='patientName' href='/#'>Patient Name</a><br/>
                                 {delivered?<div><a className='details' href='/#'>Age : 32 | Gender: Male | Blood Group: O+</a><br/>
-                                <a className='details' href='/#'>Height : 6” 3 inches | Weight : 76</a></div>:<a className='address' href='/#'>XYZ, streetname, city</a>}
+                                <a className='details' href='/#'>Height : 6” 3 inches | Weight : 76</a></div>:<a className='address' href='/#'>XYZ,streetname,<span classsName="city">city</span></a>}
                             </div>
                         </div>
                         {delivered?<button className='delivered'>Delivered</button>:QuotationStatus?<button className='accepted'>Accepted</button>:<button className='requested'>Quotation Requested</button>}
@@ -123,7 +123,7 @@ class Dashboard extends Component{
                             <div className='detailsContainer'>
                                 <a className='patientName' href='/#'>Patient Name</a><br/>
                                 {delivered?<div><a className='details' href='/#'>Age : 32 | Gender: Male | Blood Group: O+</a><br/>
-                                <a className='details'>Height : 6” 3 inches | Weight : 76</a></div>:<a className='address'>XYZ, streetname, city</a>}
+                                <a className='details'>Height : 6” 3 inches | Weight : 76</a></div>:<a className='address'>XYZ, streetname,city</a>}
                             </div>
                         </div>
                     </div>
@@ -396,7 +396,7 @@ class Dashboard extends Component{
                             <div className='patientDetails'>
                                 <a className='patientName'>Patient Name</a><br/>
                                 {delivered?<div><a className='details'>Age : 32 | Gender: Male | Blood Group: O+</a><br/>
-                                <a className='details'>Height : 6” 3 inches | Weight : 76</a></div>:<a className='address'>XYZ, streetname, city</a>}
+                                <a className='details'>Height : 6” 3 inches | Weight : 76</a></div>:<a className='address'>XYZ,streetname,city</a>}
                             </div>
                         </div>
                         {delivered?<button className='delivered'>Delivered</button>:QuotationStatus?<button className='accepted'>Accepted</button>:<button className='requested'>Quotation Requested</button>}

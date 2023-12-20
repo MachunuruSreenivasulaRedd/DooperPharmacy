@@ -253,7 +253,7 @@ text-align: center;
 }
 .patientsDetails{
     margin-left:20px;
-    text-align: center;
+    text-align: end;
 }
 .availPopup{
     width:100vw;
@@ -443,14 +443,14 @@ color:#000000;
 font-weight: 600;
 line-height: 22px;
 letter-spacing: 0em;
-text-align: left;
+margin-left: 18px;
 
 }
 .address{
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     color: #5B6572;
-    margin-left: 15px;
+    margin-left: 18px;
 }
 .accepted{
     background-color:#e3e0f3;
@@ -465,11 +465,13 @@ text-align: left;
     background-color:#d1d9ea ;
     border: none;
     color:#437BE9 ;
-    width: 140px;
+    width: 155px;
+    font-size: 12px;
     height: 22px;
-    padding: 6px, 12px, 6px, 12px;
+    padding: 6px, 6px, 6px, 12px;
     border-radius: 24px;
     gap: 8px;
+    text-align: left;
 }
 .sendQuotation{
     border: none;
@@ -520,6 +522,7 @@ text-align: left;
     font-size: 10px;
     font-weight: 500;
     margin-left: 15px;
+    text-align: end;
 }
 .detailsContainer{
     margin-left: 10px;
