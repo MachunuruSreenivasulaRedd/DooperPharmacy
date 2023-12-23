@@ -132,7 +132,7 @@ const LoginForm=()=>{
             <div className="leftcontainer">
                 <p className='dooper'>DOOPER</p>
                 <div className='headingContainer'>
-                    <h1 className='heading'>Start your journey with us</h1>
+                    <h2 className='heading'>Start your journey with us</h2>
                     <p className='para'>Discover the world's best community of doctors and DHAs</p>
                 </div>
                 <div className='ratingContainer'>
@@ -147,10 +147,7 @@ const LoginForm=()=>{
                     </div>
                 </div>
             </div>
-            <div className="rightContainer">
                 {renderResult()}
-           </div>
-        </div>}
         </div>
     )
 }

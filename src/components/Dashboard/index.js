@@ -616,6 +616,7 @@ class Dashboard extends Component{
         const Vaccination= selectedSection==="Vaccination"?"selected":"section"
         return(
             <div>
+                <hr className='cardHr'/>
             <div className='top'>
                         <h2 className='dashboard '>Dashboard</h2>
                         <div className='availabilityBtn'>

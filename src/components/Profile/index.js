@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React ,{Component} from 'react'
 import { NavLink } from 'react-router-dom';
 import { IoIosArrowDropright } from "react-icons/io";
@@ -46,7 +47,7 @@ class Profile extends Component {
               </span>
             </div>
             <div className="maincontent-ic">
-              <IoIosArrowDropright className="maincontent-arrow-line-down"/>
+              <img src="https://res.cloudinary.com/dfx93rmno/image/upload/v1703160277/Arrow_Line_Down_jycfvv.png" className="maincontent-arrow-line-down"/>
             </div>
           </div>
           <div className="maincontent-d02">
@@ -55,7 +56,7 @@ class Profile extends Component {
               <span>Edit Profile</span>
             </span>
             <div className="maincontent-ic1">
-            <IoIosArrowDropright className="maincontent-arrow-line-down" onClick={()=>this.renderEdit()}/>
+            <img src="https://res.cloudinary.com/dfx93rmno/image/upload/v1703160277/Arrow_Line_Down_jycfvv.png" className="maincontent-arrow-line-down"  onClick={()=>this.renderEdit()}/>
             </div>
           </div>
           <div className="maincontent-d03">
@@ -64,7 +65,7 @@ class Profile extends Component {
               <span>My Earnings</span>
             </span>
             <div className="maincontent-ic2">
-            <NavLink to="/myearnings"><IoIosArrowDropright className="maincontent-arrow-line-down"/></NavLink>
+            <NavLink to="/myearnings"><img src="https://res.cloudinary.com/dfx93rmno/image/upload/v1703160277/Arrow_Line_Down_jycfvv.png" className="maincontent-arrow-line-down"/></NavLink>
             </div>
           </div>
           <div className="maincontent-d04">
@@ -73,7 +74,7 @@ class Profile extends Component {
               <span>Contact Us</span>
             </span>
             <div className="maincontent-ic3">
-            <IoIosArrowDropright className="maincontent-arrow-line-down"/>
+            <img src="https://res.cloudinary.com/dfx93rmno/image/upload/v1703160277/Arrow_Line_Down_jycfvv.png" className="maincontent-arrow-line-down"/>
             </div>
           </div>
           <div className="maincontent-d05">
@@ -82,7 +83,7 @@ class Profile extends Component {
               <span>Privacy Policy</span>
             </span>
             <div className="maincontent-ic4">
-            <IoIosArrowDropright className="maincontent-arrow-line-down"/>
+            <img src="https://res.cloudinary.com/dfx93rmno/image/upload/v1703160277/Arrow_Line_Down_jycfvv.png" className="maincontent-arrow-line-down"/>
             </div>
           </div>
           <div className="maincontent-d06">
@@ -91,7 +92,7 @@ class Profile extends Component {
               <span>Terms &amp; Conditions</span>
             </span>
             <div className="maincontent-ic5">
-            <IoIosArrowDropright className="maincontent-arrow-line-down"/>
+            <img src="https://res.cloudinary.com/dfx93rmno/image/upload/v1703160277/Arrow_Line_Down_jycfvv.png" className="maincontent-arrow-line-down"/>
             </div>
           </div>
           <div className="maincontent-d07">
@@ -100,7 +101,7 @@ class Profile extends Component {
               <span>About Us</span>
             </span>
             <div className="maincontent-ic6">
-            <IoIosArrowDropright className="maincontent-arrow-line-down"/>
+            <img src="https://res.cloudinary.com/dfx93rmno/image/upload/v1703160277/Arrow_Line_Down_jycfvv.png" className="maincontent-arrow-line-down"/>
             </div>
           </div>
           <div className="maincontent-d08">
@@ -109,7 +110,7 @@ class Profile extends Component {
               <span>Rate Us</span>
             </span>
             <div className="maincontent-ic7">
-            <IoIosArrowDropright className="maincontent-arrow-line-down"/>
+            <img src="https://res.cloudinary.com/dfx93rmno/image/upload/v1703160277/Arrow_Line_Down_jycfvv.png" className="maincontent-arrow-line-down"/>
             </div>
           </div>
           <div className="maincontent-d09">
@@ -118,7 +119,7 @@ class Profile extends Component {
               <span>Logout</span>
             </span>
             <div className="maincontent-ic8">
-            <IoIosArrowDropright className="maincontent-arrow-line-down"/>
+            <img src="https://res.cloudinary.com/dfx93rmno/image/upload/v1703160277/Arrow_Line_Down_jycfvv.png" className="maincontent-arrow-line-down"/>
             </div>
           </div>
         </div>
